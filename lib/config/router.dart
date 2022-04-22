@@ -1,4 +1,7 @@
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import '../screen/home/home.dart';
+import '../screen/location/location.dart';
 
 class Router {
   static Route onGenerateRoute(RouteSettings settings) {
@@ -14,5 +17,12 @@ class Router {
       default:
         return _errorRoute();
     }
+  }
+
+  static Route _errorRoute() {
+    return MaterialPageRoute(
+      builder: (_) => Home(),
+      settings: RouteSettings(name: '/'),
+    );
   }
 }
