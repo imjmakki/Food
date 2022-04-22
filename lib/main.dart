@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/config/app-router.dart';
+import 'package:food/config/theme.dart';
 import 'package:food/screen/home/home.dart';
 
 void main() {
@@ -14,9 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Food',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: theme(),
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialRoute: Home.routeName,
     );
