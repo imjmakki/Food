@@ -9,6 +9,12 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('Main'),
       ),
+      body: ElevatedButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/location');
+        },
+        child: Text('Location'),
+      ),
     );
   }
 }
