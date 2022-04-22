@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food/screen/Voucher/voucher.dart';
 import 'package:food/screen/delivery_time/delivery_time.dart';
 import 'package:food/screen/filter_screen/filter_screen.dart';
 import 'package:food/screen/restaurant_details/restaurant_details.dart';
@@ -30,6 +31,8 @@ class AppRouter {
         return Restaurant_list.route();
       case Restaurant_details.routeName:
         return Restaurant_details.route();
+      case Voucher.routeName:
+        return Voucher.route();
         break;
       default:
         return _errorRoute();
