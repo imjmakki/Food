@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../screen/basket/basket.dart';
+import '../screen/checkout/checkout.dart';
 import '../screen/home/home.dart';
 import '../screen/location/location.dart';
 
@@ -12,6 +14,10 @@ class AppRouter {
         return Home.route();
       case Location.routeName:
         return Location.route();
+      case Basket.routeName:
+        return Basket.route();
+      case Checkout.routeName:
+        return Checkout.route();
         break;
       default:
         return _errorRoute();
