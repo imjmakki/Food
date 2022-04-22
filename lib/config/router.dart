@@ -20,8 +20,12 @@ class Router {
 
   static Route _errorRoute() {
     return MaterialPageRoute(
-      builder: (_) => Home(),
-      settings: RouteSettings(name: '/'),
+      builder: (_) => Scaffold(
+        appBar: AppBar(
+          title: Text('error'),
+        ),
+      ),
+      settings: RouteSettings(name: '/error'),
     );
   }
 }
