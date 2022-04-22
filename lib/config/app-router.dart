@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food/screen/delivery_time/delivery_time.dart';
+import 'package:food/screen/filter_screen/filter_screen.dart';
 import 'package:food/screen/restaurant_details/restaurant_details.dart';
 import 'package:food/screen/restaurant_list/restaurant_list.dart';
 import '../screen/basket/basket.dart';
@@ -23,6 +24,8 @@ class AppRouter {
         return Checkout.route();
       case DeliveryTime.routeName:
         return DeliveryTime.route();
+      case FilterScreen.routeName:
+        return FilterScreen.route();
       case Restaurant_list.routeName:
         return Restaurant_list.route();
       case Restaurant_details.routeName:
