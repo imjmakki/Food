@@ -15,11 +15,13 @@ class Location extends StatelessWidget {
       appBar: AppBar(
         title: Text('Location'),
       ),
-      body: ElevatedButton(
-        onPressed: () {
-          Navigator.pushNamed(context, '/');
-        },
-        child: Text('Home'),
+      body: Center(
+        child: ElevatedButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/');
+          },
+          child: Text('Home'),
+        ),
       ),
     );
   }
