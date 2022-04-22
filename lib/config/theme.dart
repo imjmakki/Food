@@ -6,5 +6,6 @@ ThemeData theme() {
     primaryColorDark: Color(0xFFFC0028),
     primaryColorLight: Color(0xFFFE9AAA),
     scaffoldBackgroundColor: Colors.white,
+    backgroundColor: Color(),
   );
 }
