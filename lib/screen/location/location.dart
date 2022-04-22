@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 class Location extends StatelessWidget {
@@ -14,6 +16,12 @@ class Location extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Location'),
+      ),
+      body: ElevatedButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/');
+        },
+        child: Text('Home'),
       ),
     );
   }
