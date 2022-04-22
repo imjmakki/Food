@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import '../screen/home/home.dart';
 import '../screen/location/location.dart';
 
-class Router {
+class AppRouter {
   static Route onGenerateRoute(RouteSettings settings) {
     print('The route is: ${settings.name}');
     switch (settings.name) {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:food/config/app-router.dart';
 import 'package:food/screen/home/home.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      onGenerateRoute: AppRouter.onGenerateRoute,
+      initialRoute: Home.routeName,
     );
   }
 }
