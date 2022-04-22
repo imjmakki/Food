@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Restaurant_list extends StatelessWidget {
-  static const String routeName = '/restaurants';
+  static const String routeName = '/list';
   static Route route() {
     return MaterialPageRoute(
       builder: (_) => Restaurant_list(),

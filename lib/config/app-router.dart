@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:food/screen/delivery_time/delivery_time.dart';
+import 'package:food/screen/restaurant_details/restaurant_details.dart';
+import 'package:food/screen/restaurant_list/restaurant_list.dart';
 import '../screen/basket/basket.dart';
 import '../screen/checkout/checkout.dart';
 import '../screen/home/home.dart';
@@ -18,6 +21,12 @@ class AppRouter {
         return Basket.route();
       case Checkout.routeName:
         return Checkout.route();
+      case DeliveryTime.routeName:
+        return DeliveryTime.route();
+      case Restaurant_list.routeName:
+        return Restaurant_list.route();
+      case Restaurant_details.routeName:
+        return Restaurant_details.route();
         break;
       default:
         return _errorRoute();
