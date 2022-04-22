@@ -18,9 +18,9 @@ class Home extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            Navigator.pushNamed(context, '/location');
+            Navigator.pushNamed(context, '/voucher');
           },
-          child: Text('Location'),
+          child: Text('Voucher'),
         ),
       ),
     );
