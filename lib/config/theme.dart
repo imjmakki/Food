@@ -14,6 +14,31 @@ ThemeData theme() {
         fontWeight: FontWeight.bold,
         fontSize: 36,
       ),
+      headline2: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.bold,
+        fontSize: 24,
+      ),
+      headline3: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.bold,
+        fontSize: 18,
+      ),
+      headline4: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.bold,
+        fontSize: 16,
+      ),
+      headline5: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.bold,
+        fontSize: 14,
+      ),
+      headline6: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.normal,
+        fontSize: 14,
+      ),
     ),
   );
 }
