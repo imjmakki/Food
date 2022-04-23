@@ -39,6 +39,16 @@ ThemeData theme() {
         fontWeight: FontWeight.normal,
         fontSize: 14,
       ),
+      bodyText1: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.normal,
+        fontSize: 12,
+      ),
+      bodyText2: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.normal,
+        fontSize: 10,
+      ),
     ),
   );
 }

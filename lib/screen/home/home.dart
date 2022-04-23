@@ -20,7 +20,13 @@ class Home extends StatelessWidget {
           onPressed: () {
             Navigator.pushNamed(context, '/voucher');
           },
-          child: Text('Voucher'),
+          child: Text(
+            'Voucher',
+            style: Theme.of(context)
+                .textTheme
+                .headline2
+                ?.copyWith(color: Colors.white),
+          ),
           style:
               ElevatedButton.styleFrom(primary: Theme.of(context).primaryColor),
         ),
