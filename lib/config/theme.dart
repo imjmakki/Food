@@ -8,6 +8,12 @@ ThemeData theme() {
     scaffoldBackgroundColor: Colors.white,
     backgroundColor: Color(0XFFF5F5F5),
     fontFamily: 'Futura',
-    textTheme: TextTheme(headline1: TextStyle(color: Color(0xFF1B070B))),
+    textTheme: TextTheme(
+      headline1: TextStyle(
+        color: Color(0xFF1B070B),
+        fontWeight: FontWeight.bold,
+        fontSize: 36,
+      ),
+    ),
   );
 }
