@@ -21,6 +21,8 @@ class Home extends StatelessWidget {
             Navigator.pushNamed(context, '/voucher');
           },
           child: Text('Voucher'),
+          style:
+              ElevatedButton.styleFrom(primary: Theme.of(context).primaryColor),
         ),
       ),
     );
